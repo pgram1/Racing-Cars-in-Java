@@ -1,0 +1,3609 @@
+﻿D:\downloads\AAA>java RacingCarsProgram
+Give me size of the side
+of the grid:
+8
+Random Grid [ [Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true,
+ isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=
+false, isStation=true], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=3, isObsta
+cle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=2, is
+Obstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost
+=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false,
+ cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=
+false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, is
+End=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=fals
+e, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=
+false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isS
+tart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile
+[isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false],
+ Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=f
+alse], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStat
+ion=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, i
+sStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=fal
+se, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstac
+le=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=1, isO
+bstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=
+2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false,
+cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=f
+alse, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, is
+End=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=fals
+e, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false], Tile [isStar
+t=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [
+isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], T
+ile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false
+], Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=
+false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=true, isStation=false], Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isSta
+tion=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false,
+ isStation=false], Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=false, cost=0, isObstacle=
+true, isStation=false], Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false], Tile [isStart=false, isEnd=true, cost=0, isObsta
+cle=false, isStation=false]] ]
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=false, lostTurn=-1, carColor=Red]
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=false, lostTurn=-1, carColor=Blue]
+Red starts first(They rolled 6)
+------GAME STARTS------
+Car [fuel=117, positionOnGrid=5]
+Player [score=0, turn=false, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=117, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=117, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=120, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=115, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=120, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=115, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=119, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=115, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=116, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=112, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=116, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=112, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=115, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=109, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=115, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=115, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=108, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=115, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=108, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=113, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=113, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=108, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=113, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=113, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=110, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=108, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=110, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=110, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=110, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=105, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=110, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=105, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=109, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=104, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=109, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=103, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=108, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=103, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=105, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=103, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=105, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=100, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=105, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=99, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=104, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=101, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=98, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=101, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=98, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=99, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=97, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=97, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=97, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=95, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=96, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=93, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=95, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=93, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=94, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=91, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=94, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=91, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=94, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=91, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=94, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=88, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=94, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=88, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=94, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=88, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=91, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=85, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=88, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=82, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=88, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=82, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=87, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=87, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=79, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=86, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=78, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=86, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=78, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=83, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=77, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=82, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=76, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=81, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=73, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=79, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=73, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=79, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=72, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=79, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=69, positionOnGrid=24]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=79, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=66, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=79, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=66, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=79, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=66, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=78, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=65, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=77, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=65, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=77, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=64, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=76, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=64, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=76, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=64, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=76, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=64, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=75, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=63, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=75, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=63, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=73, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=63, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=73, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=63, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=72, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=63, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=72, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=63, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=69, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=63, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=67, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=60, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=64, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=64, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=64, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=60, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=64, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=64, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=60, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=61, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=60, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=60, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=60, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=60, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=60, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=58, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=60, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=55, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=58, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=55, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=57, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=55, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=57, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=54, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=57, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=51, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=54, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=51, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=53, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=51, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=53, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=50, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=53, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=50, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=50, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=50, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=49, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=47, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=49, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=47, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=49, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=45, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=49, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=45, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=46, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=42, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=46, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=42, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=46, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=39, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=46, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=39, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=45, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=39, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=42, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=39, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=42, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=36, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=42, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=35, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=42, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=32, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=41, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=32, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=39, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=31, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=38, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=28, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=37, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=26, positionOnGrid=32]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=25, positionOnGrid=34]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=25, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=34, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=25, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=32, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=22, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=31, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=28, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=28, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=28, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=21, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=26, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=20, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=26, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=17, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=26, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=17, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=25, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=17, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=22, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=16, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=21, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=13, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=19, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=13, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=19, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=13, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=16, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=13, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=13, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=11, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=10, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=11, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=10, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=11, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=9, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=11, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=9, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=10, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=6, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=7, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=4, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=7, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=4, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=6, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=6, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=3, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=1, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=3, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=1, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=3, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=1, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=3, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=1, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=3, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=0, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=2, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------
+You ran out of fuel Red. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+1
+How many turns do you want to skip?
+6
+Car [fuel=0, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=6, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=-1, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Car [fuel=20, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=5, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+----------------------------------------
+You ran out of fuel Blue. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+2
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=false, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=40, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=4, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 6
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=60, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=3, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=80, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=2, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=100, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=120, positionOnGrid=8]
+Player [score=0, turn=false, lostTurn=0, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=21, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=117, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=19, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=116, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=19, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=115, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=19, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=115, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=16, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=115, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=15, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=114, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=12, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=114, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=12, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=113, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=12, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=113, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=12, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=113, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=10, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=113, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=10, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=110, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=10, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=109, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=10, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=108, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=9, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=108, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=8, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=7, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=108, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=7, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=7, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=108, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=7, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=105, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=5, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=104, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=5, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=101, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=5, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=101, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=2, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=99, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=2, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=-1, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=96, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------
+You ran out of fuel Blue. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+2
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=false, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=94, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=22, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=91, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=19, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=90, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=19, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=90, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=16, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=90, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=16, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=90, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=16, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=87, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=15, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=84, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=15, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=83, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=15, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=12, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=11, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=8, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=8, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=80, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=7, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=79, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=4, positionOnGrid=24]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=79, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=1, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=79, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=-2, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=79, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+----------------------------------------
+You ran out of fuel Blue. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+1
+How many turns do you want to skip?
+6
+Car [fuel=0, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=6, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=78, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=20, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=5, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 6
+Car [fuel=77, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=40, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=4, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 4
+Car [fuel=74, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Car [fuel=60, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=3, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 6
+Car [fuel=74, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Car [fuel=80, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=2, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 2
+Car [fuel=74, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=100, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 6
+Car [fuel=74, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=120, positionOnGrid=30]
+Player [score=0, turn=false, lostTurn=0, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 4
+Car [fuel=74, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=119, positionOnGrid=34]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=74, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=117, positionOnGrid=37]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=73, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=114, positionOnGrid=41]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=73, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=114, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=73, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=114, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=73, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=112, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=73, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=109, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=72, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=109, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=71, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=71, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=70, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=109, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=68, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=65, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=109, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=65, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=65, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=109, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=65, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=108, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=64, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=108, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=64, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=107, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=64, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=107, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=61, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=107, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=60, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=107, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=59, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=105, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=56, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=104, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=53, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=104, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=53, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=104, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=104, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=104, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=101, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=100, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=99, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=53, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=97, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=97, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=97, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=52, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=95, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=50, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=95, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=50, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=95, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=49, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=94, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=49, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=91, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=49, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=88, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=46, positionOnGrid=24]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=87, positionOnGrid=34]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=43, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=85, positionOnGrid=38]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=40, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=82, positionOnGrid=41]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=38, positionOnGrid=32]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=82, positionOnGrid=45]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=38, positionOnGrid=35]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=35, positionOnGrid=41]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=33, positionOnGrid=44]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=32, positionOnGrid=46]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=32, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=82, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=32, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=82, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=32, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=81, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=32, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=78, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=32, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=78, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=32, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=78, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=32, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=78, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=32, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=77, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=31, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=75, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=28, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=72, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=27, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=72, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=24, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=70, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=24, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=70, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=24, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=70, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=22, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=70, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=69, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=22, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=66, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=22, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=63, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=22, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=63, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=19, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=63, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=19, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=62, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=19, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=59, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=18, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=59, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=16, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=56, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=13, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=53, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=13, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=53, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=13, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=53, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=10, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=7, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=4, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=53, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=4, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=50, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=50, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=50, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=48, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=4, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=45, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=3, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=42, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=3, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=41, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=1, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=41, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=-2, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=41, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+----------------------------------------
+You ran out of fuel Red. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+1
+How many turns do you want to skip?
+6
+Car [fuel=0, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=6, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=41, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Car [fuel=20, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=5, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=38, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Car [fuel=40, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=4, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 4
+Car [fuel=38, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=60, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=3, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 4
+Car [fuel=38, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Car [fuel=80, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=2, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 6
+Car [fuel=37, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=100, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 6
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=120, positionOnGrid=25]
+Player [score=0, turn=false, lostTurn=0, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 1
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=117, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=117, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=114, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=37, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=112, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=37, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=112, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=110, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=37, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=109, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=37, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=106, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=37, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=104, positionOnGrid=28]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=34, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=104, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=34, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=103, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=34, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=103, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=34, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=103, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=34, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=103, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=34, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=103, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=31, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=101, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=31, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=100, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=31, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=100, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=31, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=100, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=30, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=99, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=30, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=98, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=27, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=98, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=27, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=98, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=26, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=97, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=23, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=97, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=22, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=97, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=21, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=96, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=21, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=95, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=19, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=94, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=18, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=93, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=15, positionOnGrid=24]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=93, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=12, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=12, positionOnGrid=35]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=93, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=9, positionOnGrid=41]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=7, positionOnGrid=44]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=5, positionOnGrid=49]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=93, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=4, positionOnGrid=55]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=92, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=92, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=4, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=91, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=91, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=1, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=90, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=0, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=88, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+----------------------------------------
+You ran out of fuel Blue. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+1
+How many turns do you want to skip?
+6
+Car [fuel=0, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=6, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=85, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Car [fuel=20, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=5, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 4
+Car [fuel=84, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=40, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=4, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 4
+Car [fuel=82, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Car [fuel=60, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=3, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 2
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=80, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=2, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 6
+Car [fuel=82, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Car [fuel=100, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 4
+Car [fuel=82, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Car [fuel=120, positionOnGrid=10]
+Player [score=0, turn=false, lostTurn=0, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Red rolled 1
+Car [fuel=79, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=117, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=78, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=117, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=78, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=117, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=75, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=117, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=75, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=117, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=72, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=116, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=69, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=116, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=66, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=116, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=66, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=116, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=66, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=116, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=66, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=115, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=66, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=114, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=66, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=113, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=63, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=112, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=63, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=112, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=60, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=112, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=59, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=112, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=59, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=112, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=59, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=109, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=59, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=109, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=59, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=108, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=57, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=105, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=56, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=105, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=56, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=104, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=56, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=101, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=54, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=100, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=54, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=100, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=54, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=99, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=53, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=99, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=51, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=99, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=48, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=96, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=48, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=96, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=47, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=96, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=47, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=95, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=47, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=44, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=44, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=95, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=44, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 5
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=43, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=40, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=95, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=40, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=95, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=40, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 2
+Car [fuel=94, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=38, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=91, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=38, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=89, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=38, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=89, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=36, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=89, positionOnGrid=18]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=36, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=88, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=36, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=86, positionOnGrid=28]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=36, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=86, positionOnGrid=29]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=36, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=83, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=35, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=35, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=83, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=32, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=83, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=29, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=83, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 1
+Car [fuel=26, positionOnGrid=12]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=81, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=26, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=81, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=25, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=79, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=24, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=78, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=23, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=76, positionOnGrid=28]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=23, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=76, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=21, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=76, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=18, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=76, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=15, positionOnGrid=26]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=76, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 4
+Car [fuel=12, positionOnGrid=30]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=76, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=12, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=76, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 6
+Car [fuel=12, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=73, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=12, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=73, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=12, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=70, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=12, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=67, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=9, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=66, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=9, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+Car [fuel=66, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=9, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=63, positionOnGrid=5]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=9, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 6
+Car [fuel=60, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=8, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=59, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 3
+Car [fuel=5, positionOnGrid=11]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=59, positionOnGrid=17]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 3
+Car [fuel=5, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=59, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=5, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 3
+Car [fuel=59, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=4, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=57, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=4, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 1
+Car [fuel=56, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=55, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=55, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Red rolled 4
+Car [fuel=4, positionOnGrid=4]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 3
+Car [fuel=55, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=53, positionOnGrid=7]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=4, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=53, positionOnGrid=13]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 2
+Car [fuel=3, positionOnGrid=2]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=51, positionOnGrid=19]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=3, positionOnGrid=3]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Blue rolled 4
+Car [fuel=50, positionOnGrid=23]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Red rolled 5
+Car [fuel=2, positionOnGrid=8]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 2
+Car [fuel=47, positionOnGrid=25]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Red rolled 2
+Car [fuel=1, positionOnGrid=10]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=47, positionOnGrid=29]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+Red rolled 5
+Car [fuel=0, positionOnGrid=15]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 6
+Car [fuel=47, positionOnGrid=35]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=0, isObstacle=false, isStation=true]
+----------------------------------------
+You ran out of fuel Red. You can choose to:
+1.Skip up to 6 turns, gaining 20 fuel with each skip
+2.Go to start and gain random amount of fuel
+1
+How many turns do you want to skip?
+6
+Car [fuel=0, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=6, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Blue rolled 5
+Car [fuel=46, positionOnGrid=40]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=20, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=5, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 2
+Car [fuel=44, positionOnGrid=42]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Car [fuel=40, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=4, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 4
+Car [fuel=43, positionOnGrid=46]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=60, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=3, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 2
+Car [fuel=40, positionOnGrid=48]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=3, isObstacle=false, isStation=false]
+Car [fuel=80, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=2, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 2
+Car [fuel=38, positionOnGrid=50]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Car [fuel=100, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=1, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 5
+Car [fuel=37, positionOnGrid=55]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+Car [fuel=120, positionOnGrid=15]
+Player [score=0, turn=false, lostTurn=0, carColor=Red]
+Tile [isStart=false, isEnd=false, cost=1, isObstacle=false, isStation=false]
+----------------------------------------------
+Blue rolled 4
+Car [fuel=35, positionOnGrid=59]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=false, cost=2, isObstacle=false, isStation=false]
+Red rolled 6
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 4
+Car [fuel=35, positionOnGrid=63]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+Tile [isStart=false, isEnd=true, cost=0, isObstacle=false, isStation=false]
+Red rolled 1
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=true, lostTurn=-1, carColor=Red]
+Tile [isStart=true, isEnd=false, cost=0, isObstacle=false, isStation=false]
+Blue rolled 1
+------END OF GAME------
+Car [fuel=120, positionOnGrid=0]
+Player [score=0, turn=false, lostTurn=-1, carColor=Red]
+Car [fuel=35, positionOnGrid=64]
+Player [score=0, turn=true, lostTurn=-1, carColor=Blue]
+
+------------------------------
+Blue finished!
+Scores:
+Blue: 35
+Red: 120
